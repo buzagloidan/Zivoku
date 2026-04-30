@@ -1,0 +1,257 @@
+{
+  "sourceSheets": {
+    "maple": {
+      "file": "maple.png",
+      "split": {
+        "rows": 3,
+        "columns": 4
+      },
+      "ordering": "row-major"
+    },
+    "piggy": {
+      "file": "piggy.png",
+      "split": {
+        "rows": 3,
+        "columns": 4
+      },
+      "ordering": "semantic",
+      "note": "Exported from foreground component bounds to avoid clipping. piggy_08, piggy_09, and piggy_10 preserve the app's happy, startled, and sleeping state names; piggy_11 contains the middle-row side-profile pose."
+    }
+  },
+  "assets": {
+    "maple": [
+      {
+        "assetName": "maple_01",
+        "sheetIndex": 0,
+        "gridPosition": {
+          "row": 0,
+          "column": 0
+        },
+        "file": "Sprites/Maple/maple_01.imageset/maple_01.png",
+        "description": "Orange cat low run, facing left."
+      },
+      {
+        "assetName": "maple_02",
+        "sheetIndex": 1,
+        "gridPosition": {
+          "row": 0,
+          "column": 1
+        },
+        "file": "Sprites/Maple/maple_02.imageset/maple_02.png",
+        "description": "Orange cat trotting, head forward."
+      },
+      {
+        "assetName": "maple_03",
+        "sheetIndex": 2,
+        "gridPosition": {
+          "row": 0,
+          "column": 2
+        },
+        "file": "Sprites/Maple/maple_03.imageset/maple_03.png",
+        "description": "Orange cat running with tail raised."
+      },
+      {
+        "assetName": "maple_04",
+        "sheetIndex": 3,
+        "gridPosition": {
+          "row": 0,
+          "column": 3
+        },
+        "file": "Sprites/Maple/maple_04.imageset/maple_04.png",
+        "description": "Orange cat running, elongated pose."
+      },
+      {
+        "assetName": "maple_05",
+        "sheetIndex": 4,
+        "gridPosition": {
+          "row": 1,
+          "column": 0
+        },
+        "file": "Sprites/Maple/maple_05.imageset/maple_05.png",
+        "description": "Orange cat sitting front-on."
+      },
+      {
+        "assetName": "maple_06",
+        "sheetIndex": 5,
+        "gridPosition": {
+          "row": 1,
+          "column": 1
+        },
+        "file": "Sprites/Maple/maple_06.imageset/maple_06.png",
+        "description": "Orange cat seated in three-quarter view."
+      },
+      {
+        "assetName": "maple_07",
+        "sheetIndex": 6,
+        "gridPosition": {
+          "row": 1,
+          "column": 2
+        },
+        "file": "Sprites/Maple/maple_07.imageset/maple_07.png",
+        "description": "Orange cat seated in side profile."
+      },
+      {
+        "assetName": "maple_08",
+        "sheetIndex": 7,
+        "gridPosition": {
+          "row": 1,
+          "column": 3
+        },
+        "file": "Sprites/Maple/maple_08.imageset/maple_08.png",
+        "description": "Orange cat back view, seated."
+      },
+      {
+        "assetName": "maple_09",
+        "sheetIndex": 8,
+        "gridPosition": {
+          "row": 2,
+          "column": 0
+        },
+        "file": "Sprites/Maple/maple_09.imageset/maple_09.png",
+        "description": "Orange cat standing alert, three-quarter view."
+      },
+      {
+        "assetName": "maple_10",
+        "sheetIndex": 9,
+        "gridPosition": {
+          "row": 2,
+          "column": 1
+        },
+        "file": "Sprites/Maple/maple_10.imageset/maple_10.png",
+        "description": "Orange cat crouched low, stretched out."
+      },
+      {
+        "assetName": "maple_11",
+        "sheetIndex": 10,
+        "gridPosition": {
+          "row": 2,
+          "column": 2
+        },
+        "file": "Sprites/Maple/maple_11.imageset/maple_11.png",
+        "description": "Orange cat leaping forward."
+      },
+      {
+        "assetName": "maple_12",
+        "sheetIndex": 11,
+        "gridPosition": {
+          "row": 2,
+          "column": 3
+        },
+        "file": "Sprites/Maple/maple_12.imageset/maple_12.png",
+        "description": "Orange cat sleeping curled up."
+      }
+    ],
+    "piggy": [
+      {
+        "assetName": "piggy_01",
+        "sheetIndex": 0,
+        "gridPosition": {
+          "row": 0,
+          "column": 0
+        },
+        "file": "Sprites/Piggy/piggy_01.imageset/piggy_01.png",
+        "description": "Pink pig front-left trot, cropped to the main body."
+      },
+      {
+        "assetName": "piggy_02",
+        "sheetIndex": 1,
+        "gridPosition": {
+          "row": 0,
+          "column": 1
+        },
+        "file": "Sprites/Piggy/piggy_02.imageset/piggy_02.png",
+        "description": "Pink pig side-trot pose."
+      },
+      {
+        "assetName": "piggy_03",
+        "sheetIndex": 2,
+        "gridPosition": {
+          "row": 0,
+          "column": 2
+        },
+        "file": "Sprites/Piggy/piggy_03.imageset/piggy_03.png",
+        "description": "Pink pig stretched left-facing pose."
+      },
+      {
+        "assetName": "piggy_04",
+        "sheetIndex": 3,
+        "gridPosition": {
+          "row": 0,
+          "column": 3
+        },
+        "file": "Sprites/Piggy/piggy_04.imageset/piggy_04.png",
+        "description": "Pink pig front-facing trot."
+      },
+      {
+        "assetName": "piggy_05",
+        "sheetIndex": 4,
+        "gridPosition": {
+          "row": 1,
+          "column": 0
+        },
+        "file": "Sprites/Piggy/piggy_05.imageset/piggy_05.png",
+        "description": "Pink pig cheerful front pose."
+      },
+      {
+        "assetName": "piggy_06",
+        "sheetIndex": 5,
+        "gridPosition": {
+          "row": 1,
+          "column": 1
+        },
+        "file": "Sprites/Piggy/piggy_06.imageset/piggy_06.png",
+        "description": "Pink pig three-quarter side view with tail visible."
+      },
+      {
+        "assetName": "piggy_07",
+        "sheetIndex": 7,
+        "gridPosition": {
+          "row": 1,
+          "column": 3
+        },
+        "file": "Sprites/Piggy/piggy_07.imageset/piggy_07.png",
+        "description": "Pink pig back view."
+      },
+      {
+        "assetName": "piggy_08",
+        "sheetIndex": 8,
+        "gridPosition": {
+          "row": 2,
+          "column": 0
+        },
+        "file": "Sprites/Piggy/piggy_08.imageset/piggy_08.png",
+        "description": "Pink pig smiling, cheerful pose."
+      },
+      {
+        "assetName": "piggy_09",
+        "sheetIndex": 9,
+        "gridPosition": {
+          "row": 2,
+          "column": 1
+        },
+        "file": "Sprites/Piggy/piggy_09.imageset/piggy_09.png",
+        "description": "Pink pig startled pose with exclamation."
+      },
+      {
+        "assetName": "piggy_10",
+        "sheetIndex": 10,
+        "gridPosition": {
+          "row": 2,
+          "column": 2
+        },
+        "file": "Sprites/Piggy/piggy_10.imageset/piggy_10.png",
+        "description": "Pink pig sleeping with zzz."
+      },
+      {
+        "assetName": "piggy_11",
+        "sheetIndex": 6,
+        "gridPosition": {
+          "row": 1,
+          "column": 2
+        },
+        "file": "Sprites/Piggy/piggy_11.imageset/piggy_11.png",
+        "description": "Pink pig side-profile pose."
+      }
+    ]
+  }
+}
