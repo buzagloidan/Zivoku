@@ -9,15 +9,16 @@
 /* Begin PBXBuildFile section */
 		025C4870D8CD98F16FBEF697 /* DailyRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457D817E3FEA2CA1AB717600 /* DailyRecord.swift */; };
 		126DFAFCAB80DD7895E5F01D /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4272919E91ADDCD0CC3888 /* NumberPadView.swift */; };
+		149FEAABB302B9361B580396 /* SpriteAssets.json in Resources */ = {isa = PBXBuildFile; fileRef = DE3E376E2231B155BD6FC727 /* SpriteAssets.json */; };
 		1B62603DBE4A7BFF030B6945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CDB17DC7777304C68244B /* Assets.xcassets */; };
-		1C3A7F0E5B6D4A2C9E8F7012 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E5C7A1D4B4E8198F03A2B /* PrivacyInfo.xcprivacy */; };
+		1E507CBA01920A833ABC0D25 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 95DB3B0153FEE20CA9EFC1A0 /* PrivacyInfo.xcprivacy */; };
 		1F45DE5999900EED79F0404E /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE668CA428DBDB90160749 /* Generator.swift */; };
 		2CD54C9513FF620B09695B6B /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C36B781EF63E09196E223 /* ToolbarView.swift */; };
 		312E3DE2D99D913C41CDDFEA /* SudokuForZivApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C834C6621407355DBF1364FC /* SudokuForZivApp.swift */; };
 		43CD282BCEA3E2EC9D8A29D6 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309A9B3A284A0E569CDAF5A1 /* CellView.swift */; };
 		456C4D2F58B8442C55CC4649 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93417C449CDC6029EEBF2608 /* HomeView.swift */; };
-		4F0C1B2E3D4A596877665544 /* CompanionSprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B3C2D1E0F9876543210AA /* CompanionSprites.swift */; };
 		5863D517DFD0870CC68078A3 /* PuzzleHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91353A1292A2257557D09DE7 /* PuzzleHasher.swift */; };
+		6331CE3188B17165A6C1F864 /* CompanionSprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB047A649452930A84DEF42 /* CompanionSprites.swift */; };
 		6907B375A16574A4C2083DE1 /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66476C29D22274DC20013E7 /* Solver.swift */; };
 		7038A1CA80D03BA6B08C5139 /* SolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BF6F4A74636CBA73C772F /* SolverTests.swift */; };
 		7C428D2EC2A661E2CDB57C39 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B305257DA39C3CC91DDD2 /* Board.swift */; };
@@ -52,19 +53,18 @@
 
 /* Begin PBXFileReference section */
 		0A1BF6F4A74636CBA73C772F /* SolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolverTests.swift; sourceTree = "<group>"; };
-		0D5F9FDF2229E16A6F5F7A0C /* SudokuForZiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokuForZiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5F9FDF2229E16A6F5F7A0C /* SudokuForZiv.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SudokuForZiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		154193F793B982987F5508F8 /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
 		1961B951F688C84F8EAE5EAC /* HumanSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanSolver.swift; sourceTree = "<group>"; };
 		1AEF47B185BD6634273F4D0D /* CompletedGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedGame.swift; sourceTree = "<group>"; };
 		1D96311AF1FE2E9662A98094 /* SudokuForZivTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SudokuForZivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE289B6494797A062AC72C6 /* ActiveGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveGame.swift; sourceTree = "<group>"; };
-		2F8E5C7A1D4B4E8198F03A2B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		309A9B3A284A0E569CDAF5A1 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		3BB047A649452930A84DEF42 /* CompanionSprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionSprites.swift; sourceTree = "<group>"; };
 		3D6A42B649A089E9C2B00800 /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
 		457D817E3FEA2CA1AB717600 /* DailyRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRecord.swift; sourceTree = "<group>"; };
 		509A0E8A1E6B6C78AA80561E /* DifficultyRater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyRater.swift; sourceTree = "<group>"; };
 		5159904B659B5D2C57CADB22 /* DifficultyRaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyRaterTests.swift; sourceTree = "<group>"; };
-		5A4B3C2D1E0F9876543210AA /* CompanionSprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionSprites.swift; sourceTree = "<group>"; };
 		61DE668CA428DBDB90160749 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		66A093D13054C4837D4577C2 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		6F8CDB17DC7777304C68244B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +73,7 @@
 		847DB68E06802A7AC54BE81D /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		91353A1292A2257557D09DE7 /* PuzzleHasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleHasher.swift; sourceTree = "<group>"; };
 		93417C449CDC6029EEBF2608 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		95DB3B0153FEE20CA9EFC1A0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A42B305257DA39C3CC91DDD2 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		B20B767FC0BD4B55E4F34822 /* AdaptiveDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveDifficulty.swift; sourceTree = "<group>"; };
 		B66476C29D22274DC20013E7 /* Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 		CF4272919E91ADDCD0CC3888 /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
 		DB0C36B781EF63E09196E223 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 		DD8B9119659F806D98BB293B /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		DE3E376E2231B155BD6FC727 /* SpriteAssets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SpriteAssets.json; sourceTree = "<group>"; };
 		E6945FB7829C6EFF681665DA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E9537AB4A8CAE400FC981F23 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		EBFDF8E45AB7636187E64BDB /* HumanSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanSolverTests.swift; sourceTree = "<group>"; };
@@ -139,7 +141,7 @@
 			children = (
 				DD8B9119659F806D98BB293B /* BoardView.swift */,
 				309A9B3A284A0E569CDAF5A1 /* CellView.swift */,
-				5A4B3C2D1E0F9876543210AA /* CompanionSprites.swift */,
+				3BB047A649452930A84DEF42 /* CompanionSprites.swift */,
 				BD19881EE0F4D7DF8D7D6700 /* GameView.swift */,
 				93417C449CDC6029EEBF2608 /* HomeView.swift */,
 				CF4272919E91ADDCD0CC3888 /* NumberPadView.swift */,
@@ -162,7 +164,8 @@
 				ADE1012081D567FE3F18DC0E /* Views */,
 				6F8CDB17DC7777304C68244B /* Assets.xcassets */,
 				7DB86A53CC7B5FCF65BF3B72 /* Info.plist */,
-				2F8E5C7A1D4B4E8198F03A2B /* PrivacyInfo.xcprivacy */,
+				95DB3B0153FEE20CA9EFC1A0 /* PrivacyInfo.xcprivacy */,
+				DE3E376E2231B155BD6FC727 /* SpriteAssets.json */,
 			);
 			path = SudokuForZiv;
 			sourceTree = "<group>";
@@ -247,6 +250,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9024101B9C57515BB6998683 = {
+						DevelopmentTeam = ZADSZ6HP53;
+					};
+				};
 			};
 			buildConfigurationList = 4B747A4A4A0FCC0441B263FE /* Build configuration list for PBXProject "SudokuForZiv" */;
 			developmentRegion = en;
@@ -274,7 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B62603DBE4A7BFF030B6945 /* Assets.xcassets in Resources */,
-				1C3A7F0E5B6D4A2C9E8F7012 /* PrivacyInfo.xcprivacy in Resources */,
+				1E507CBA01920A833ABC0D25 /* PrivacyInfo.xcprivacy in Resources */,
+				149FEAABB302B9361B580396 /* SpriteAssets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +310,7 @@
 				7C428D2EC2A661E2CDB57C39 /* Board.swift in Sources */,
 				BE79D27AAA3D29C72F324562 /* BoardView.swift in Sources */,
 				43CD282BCEA3E2EC9D8A29D6 /* CellView.swift in Sources */,
-				4F0C1B2E3D4A596877665544 /* CompanionSprites.swift in Sources */,
+				6331CE3188B17165A6C1F864 /* CompanionSprites.swift in Sources */,
 				CFF9D5F30760C6DC58D7AD4F /* CompletedGame.swift in Sources */,
 				025C4870D8CD98F16FBEF697 /* DailyRecord.swift in Sources */,
 				EF228CEF5CFD81BE09FFB035 /* Difficulty.swift in Sources */,
@@ -341,15 +350,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ZADSZ6HP53;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SudokuForZiv/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idanbu.SudokuForZiv;
 				SDKROOT = iphoneos;
@@ -413,7 +419,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -471,7 +477,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -508,15 +514,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ZADSZ6HP53;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SudokuForZiv/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.idanbu.SudokuForZiv;
 				SDKROOT = iphoneos;

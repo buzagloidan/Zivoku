@@ -104,13 +104,47 @@ enum Generator {
                 return puzzle
             }
         }
-        // Deterministic fallback.
-        var rng2 = SplitMix64(seed: seed &+ 9999)
-        let solution = fillRandom(rng: &rng2)
-        return Puzzle(givens: solution, solution: solution, difficultyScore: 0, difficulty: .gentle)
+        // Deterministic fallback: keep the daily puzzle playable even if the
+        // requested bucket cannot be generated on this seed.
+        return fallbackDaily(seed: seed, difficulty: diff)
     }
 
     // MARK: - Private
+
+    private static func fallbackDaily(seed: UInt64, difficulty: Difficulty) -> Puzzle {
+        var rng = SplitMix64(seed: seed &+ 9999)
+        let solution = fillRandom(rng: &rng)
+        var givens = solution
+        let target = min(difficulty.targetEmptyCells, Difficulty.calm.targetEmptyCells)
+        var score = 0
+
+        for idx in Array(0..<81).shuffled(using: &rng) {
+            let saved = givens[idx]
+            givens[idx] = 0
+
+            guard Solver.hasUniqueSolution(givens) else {
+                givens[idx] = saved
+                continue
+            }
+
+            let result = HumanSolver.solve(givens)
+            guard !result.requiresGuessing else {
+                givens[idx] = saved
+                continue
+            }
+
+            score = result.totalScore
+            if givens.filter({ $0 == 0 }).count >= target { break }
+        }
+
+        if !givens.contains(0) {
+            givens[0] = 0
+            score = HumanSolver.solve(givens).totalScore
+        }
+
+        let ratedDifficulty = Difficulty.from(score: score)
+        return Puzzle(givens: givens, solution: solution, difficultyScore: score, difficulty: ratedDifficulty)
+    }
 
     private static func fill<R: RandomNumberGenerator>(_ grid: inout Grid, index: Int, rng: inout R) -> Bool {
         if index == 81 { return true }

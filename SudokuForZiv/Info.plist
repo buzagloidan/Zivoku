@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>Sudoku for Ziv</string>
+    <string>Zivoku</string>
     <key>CFBundleDisplayName</key>
-    <string>Sudoku for Ziv</string>
+    <string>Zivoku</string>
     <key>CFBundleIdentifier</key>
     <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
     <key>CFBundleVersion</key>

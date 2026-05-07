@@ -146,6 +146,7 @@ struct HomeView: View {
             .shadow(color: Theme.primary.opacity(0.35), radius: 12, y: 4)
         }
         .disabled(isGenerating)
+        .accessibilityIdentifier("New Game")
     }
 
     private var dailyCard: some View {
@@ -180,6 +181,7 @@ struct HomeView: View {
             .shadow(color: Theme.ink.opacity(0.07), radius: 6, y: 2)
         }
         .disabled(isDailyGenerating)
+        .accessibilityIdentifier("Daily Puzzle")
     }
 
     private var statsButton: some View {
@@ -197,6 +199,7 @@ struct HomeView: View {
             .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.cornerRadius))
             .shadow(color: Theme.ink.opacity(0.05), radius: 4, y: 1)
         }
+        .accessibilityIdentifier("Statistics")
     }
 
     // MARK: - Helpers

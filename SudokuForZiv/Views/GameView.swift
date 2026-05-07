@@ -73,6 +73,7 @@ struct GameView: View {
                 }
                 Spacer()
                 headerButton(systemName: "xmark", action: onExit)
+                    .accessibilityIdentifier("Back")
             }
             .padding(.horizontal, 20)
             .padding(.top, 12)

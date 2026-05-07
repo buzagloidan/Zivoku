@@ -53,6 +53,7 @@ struct BoardView: View {
                 .allowsHitTesting(false)
             }
             .frame(width: size, height: size)
+            .accessibilityIdentifier("SudokuBoard")
         }
         .aspectRatio(1, contentMode: .fit)
     }

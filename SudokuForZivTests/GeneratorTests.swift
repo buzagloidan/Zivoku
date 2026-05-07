@@ -43,6 +43,18 @@ final class GeneratorTests: XCTestCase {
         XCTAssertEqual(p1.givens, p2.givens)
     }
 
+    func test_dailyMayFirst2026_isNotAlreadySolved() throws {
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(secondsFromGMT: 0)!
+        let date = try XCTUnwrap(calendar.date(from: DateComponents(year: 2026, month: 5, day: 1, hour: 12)))
+
+        let puzzle = Generator.daily(date: date)
+
+        XCTAssertGreaterThan(puzzle.givens.filter { $0 == 0 }.count, 0)
+        XCTAssertNotEqual(puzzle.givens, puzzle.solution)
+        XCTAssertTrue(Solver.hasUniqueSolution(puzzle.givens))
+    }
+
     func test_humanSolverCanSolveGeneratedPuzzles() {
         for _ in 0..<3 {
             let puzzle = Generator.generate(difficulty: .gentle)

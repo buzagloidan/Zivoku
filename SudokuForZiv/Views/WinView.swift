@@ -10,7 +10,7 @@ struct WinView: View {
         "That's my girl! 💕",
         "Look at you go, Ziv ✨",
         "Solving puzzles like a pro 💗",
-        "Ziv + Sudoku = unbeatable 🌸",
+        "Ziv + Zivoku = unbeatable 🌸",
         "You make it look easy 💖",
         "Pure genius, Ziv! 💗",
     ]
