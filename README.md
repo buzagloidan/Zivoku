@@ -6,7 +6,7 @@ Built with SwiftUI for iOS 17+.
 
 ---
 
-![Home Screen](screenshots/iphone/01_Home.png) ![Game Screen](screenshots/iphone/02_Game.png) ![Stats Screen](screenshots/iphone/03_Stats.png)
+<img src="screenshots/iphone/01_Home.png" width="30%"> <img src="screenshots/iphone/02_Game.png" width="30%"> <img src="screenshots/iphone/03_Stats.png" width="30%">
 
 ---
 
